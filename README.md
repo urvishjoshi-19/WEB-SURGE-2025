@@ -1,6 +1,7 @@
 # WEB-SURGE-2025
 
 Welcome to the **WEB SURGE 2025** repository, an event conducted jointly by **Vector The Design Club** and **Dcodr The Coding Club**.
+Problem Statements will be uploaded on 24th March
 
 ## Getting Started
 Follow these steps to set up your repository and start working on your project:
@@ -24,4 +25,6 @@ Write and test your code on your local machine. Make regular commits to track yo
 Once your code is ready, push your changes to your forked repository (not this original repository). If you need help, watch this [How do i push the code?](https://www.youtube.com/watch?v=eLmpKKaQL54).
 
 ## Why Use Git/GitHub?
-Learning Git and GitHub will simplify your development workflow, enhance collaboration, and improve version control. Happy coding! 🚀
+Learning Git and GitHub will make your life as a developer easier. 🚀
+
+KeepBuilding!!
