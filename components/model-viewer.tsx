@@ -19,6 +19,7 @@ const models = [
     category: "Missile Systems",
     description: "Intercontinental ballistic missile with a range of over 5,000 km",
     thumbnail: "/agni.jpg",
+    modelUrl: "/models/placeholder.glb", // This would be a real GLB file in production
     details: {
       range: "5,000+ km",
       payload: "1,500 kg",
@@ -31,6 +32,13 @@ const models = [
     },
     specifications:
       "The Agni-V is a three-stage solid fueled intercontinental ballistic missile developed by the Defence Research and Development Organisation (DRDO) of India. It has a range of more than 5,000 km and can carry a nuclear warhead of about 1.5 tons. The missile's canister-launch missile system provides it with operational flexibility, allowing it to be launched from various platforms.",
+    features: [
+      "Canister-launch system for operational flexibility",
+      "Advanced navigation systems for high accuracy",
+      "Multiple Independent Re-entry Vehicle (MIRV) capability",
+      "Road-mobile launcher for strategic mobility",
+      "Composite rocket motors for weight reduction",
+    ],
   },
   {
     id: 2,
@@ -38,6 +46,7 @@ const models = [
     category: "Aircraft",
     description: "Single-engine, delta wing, multirole light fighter aircraft",
     thumbnail: "/lca.jpg",
+    modelUrl: "/models/placeholder.glb",
     details: {
       range: "3,000 km",
       payload: "3,500 kg",
@@ -50,9 +59,125 @@ const models = [
     },
     specifications:
       "The HAL Tejas is an Indian single-engine, delta wing, multirole light fighter designed by the Aeronautical Development Agency (ADA) and manufactured by Hindustan Aeronautics Limited (HAL) for the Indian Air Force and Indian Navy. It is the smallest and lightest in its class of contemporary supersonic combat aircraft.",
+    features: [
+      "Digital fly-by-wire flight control system",
+      "Advanced glass cockpit with multi-function displays",
+      "Composite materials for reduced weight and radar signature",
+      "Advanced electronic warfare suite",
+      "Integration with various precision-guided munitions",
+    ],
   },
-  // Add other models similarly...
+  {
+    id: 3,
+    name: "Arjun Main Battle Tank",
+    category: "Land Systems",
+    description: "Third-generation main battle tank with advanced protection and firepower",
+    thumbnail: "/arjun.jpg",
+    modelUrl: "/models/placeholder.glb",
+    details: {
+      armament: "120 mm rifled main gun",
+      secondary: "7.62 mm coaxial machine gun",
+      armor: "Kanchan composite armor",
+      engine: "MTU 838 Ka-501 diesel engine (1,400 hp)",
+      length: "10.19 m",
+      width: "3.86 m",
+      weight: "58.5 tonnes",
+      status: "Operational",
+    },
+    specifications:
+      "The Arjun is a third-generation main battle tank developed by the DRDO for the Indian Army. The tank features a 120 mm main rifled gun with indigenously developed armor-piercing fin-stabilized discarding-sabot ammunition, one PKT 7.62 mm coaxial machine gun, and a NSVT 12.7 mm machine gun.",
+    features: [
+      "Advanced fire control system with thermal imaging",
+      "Kanchan composite armor for enhanced protection",
+      "Integrated digital battle management system",
+      "Hydro-pneumatic suspension for improved mobility",
+      "Auxiliary power unit for silent watch operations",
+    ],
+  },
+  {
+    id: 4,
+    name: "BrahMos Cruise Missile",
+    category: "Missile Systems",
+    description: "Supersonic cruise missile with a speed of Mach 2.8-3.0",
+    thumbnail: "/brahmos.jpg",
+    modelUrl: "/models/placeholder.glb",
+    details: {
+      range: "290-500 km",
+      payload: "200-300 kg",
+      propulsion: "Two-stage with solid propellant booster and liquid ramjet",
+      guidance: "Inertial navigation with GPS/GLONASS update",
+      length: "8.4 m",
+      diameter: "0.67 m",
+      weight: "3,000 kg",
+      status: "Operational",
+    },
+    specifications:
+      "BrahMos is a medium-range ramjet supersonic cruise missile that can be launched from submarines, ships, aircraft, or land. It is a joint venture between India's DRDO and Russia's NPO Mashinostroyeniya. The missile travels at speeds of Mach 2.8 to 3.0, making it one of the world's fastest cruise missiles.",
+    features: [
+      "Supersonic speed for reduced interception probability",
+      "Multiple launch platforms (land, sea, air, submarine)",
+      "Advanced guidance systems for precision strikes",
+      "Steep dive capability for anti-ship missions",
+      "Low radar signature for stealth operations",
+    ],
+  },
+  {
+    id: 5,
+    name: "Rustom-II UAV",
+    category: "Unmanned Systems",
+    description: "Medium-altitude long-endurance unmanned aerial vehicle",
+    thumbnail: "/rustom.jpg",
+    modelUrl: "/models/placeholder.glb",
+    details: {
+      range: "1,000 km",
+      endurance: "24 hours",
+      propulsion: "NPO Saturn 36MT turboprop engine",
+      payload: "350 kg",
+      length: "9.5 m",
+      wingspan: "20.6 m",
+      weight: "1,800 kg",
+      status: "Development",
+    },
+    specifications:
+      "Rustom-II is a medium-altitude long-endurance unmanned aerial vehicle (UAV) being developed by DRDO for the Indian Armed Forces. It is designed to carry out surveillance and reconnaissance operations, and can also be configured for electronic warfare missions.",
+    features: [
+      "Autonomous flight capabilities",
+      "Advanced electro-optical/infrared sensors",
+      "Synthetic aperture radar for all-weather surveillance",
+      "Secure data link for real-time information transmission",
+      "Modular payload system for mission flexibility",
+    ],
+  },
+  {
+    id: 6,
+    name: "AEW&C System",
+    category: "Surveillance Systems",
+    description: "Airborne Early Warning and Control System for aerial surveillance",
+    thumbnail: "/awc.jpg",
+    modelUrl: "/models/placeholder.glb",
+    details: {
+      platform: "Embraer ERJ-145 aircraft",
+      radar: "Active electronically scanned array radar",
+      range: "350 km (radar detection)",
+      endurance: "9 hours",
+      length: "29.87 m",
+      wingspan: "20.04 m",
+      weight: "22,000 kg",
+      status: "Operational",
+    },
+    specifications:
+      "The DRDO Airborne Early Warning and Control System is an airborne early warning and control system developed by DRDO for the Indian Air Force. It consists of an active electronically scanned array radar mounted on an Embraer ERJ-145 aircraft and is designed to detect aerial threats up to 350 km away.",
+    features: [
+      "360-degree surveillance capability",
+      "Identification friend or foe (IFF) system",
+      "Secure communication links for data sharing",
+      "Electronic support measures for signal intelligence",
+      "Command and control capabilities for battle management",
+    ],
+  },
 ]
+
+
 
 export default function ModelViewer() {
   const [activeModel, setActiveModel] = useState<number | null>(null)

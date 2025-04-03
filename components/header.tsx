@@ -153,7 +153,7 @@ export default function Header() {
                 href="#main"
                 className="text-xs md:text-sm hover:text-blue-300 transition-colors px-2 py-1 rounded-md bg-white/10 backdrop-blur-sm hover:bg-white/20"
               >
-                Skip to main content
+                Skip to main content - Developed by Urvish & Sanika
               </Link>
             </motion.div>
 

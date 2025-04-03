@@ -249,7 +249,7 @@ export default function Footer() {
                 />
               </motion.div>
               <div className="text-xs text-white/60">
-                <p>© {new Date().getFullYear()} DRDO. All Rights Reserved.</p>
+                <p>© {new Date().getFullYear()} DRDO. This website is developed by Urvish & Sanika </p>
                 <div className="flex items-center gap-1">
                   <span>Last Updated:</span>
                   <motion.span
